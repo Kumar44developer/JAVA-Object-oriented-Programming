@@ -9,3 +9,14 @@ stackArray = newint[MAX_SIZE];
 top = -1;
    }
 
+public void push(int value)
+   {
+	if (top==(MAX_SIZE-1))
+	{
+		System.out.println("Stack full");
+		return;
+	}
+	stackArray[++top] = value;
+   }
+
+
