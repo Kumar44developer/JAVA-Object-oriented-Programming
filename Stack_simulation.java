@@ -27,6 +27,18 @@ public void pop()
 	}
 	System.out.println("TOS is "+ stackArray[top--]); 
    }
+public void display()
+   {
+	if (top==-1)
+	{
+		System.out.println("Stack empty");
+		return;
+	}
+	System.out.println("Contents of stack are");
+	for(inti=top;i>=0;i--)
+		System.out.println(stackArray[i]);
+   }
+}
 
 
 
