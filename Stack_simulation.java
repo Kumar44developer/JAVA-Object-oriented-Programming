@@ -18,5 +18,15 @@ public void push(int value)
 	}
 	stackArray[++top] = value;
    }
+public void pop() 
+   {
+	if (top==-1)
+	{
+		System.out.println("Stack empty");
+		return;
+	}
+	System.out.println("TOS is "+ stackArray[top--]); 
+   }
+
 
 
