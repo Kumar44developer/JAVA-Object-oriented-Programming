@@ -39,6 +39,12 @@ public void display()
 		System.out.println(stackArray[i]);
    }
 }
-
+public class Stack_simulation {
+public static void main(String[] args) {
+     Stack st = newStack();
+     Scanner sc = newScanner(System.in);
+for(;;)
+     {
+	
 
 
