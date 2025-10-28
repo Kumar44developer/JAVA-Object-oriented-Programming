@@ -45,6 +45,21 @@ public static void main(String[] args) {
      Scanner sc = newScanner(System.in);
 for(;;)
      {
-	
+	System.out.println("1. Push\n2. Pop\n3. Display");
+	System.out.print("4. Exit\nChoice: ");
+	intch=sc.nextInt();
+	switch(ch)
+	  {
+	case 1: System.out.println("Enter element to 	insert");
+	ch=sc.nextInt();
+		st.push(ch);
+		break;
+	case 2: st.pop(); break;
+	case 3: st.display(); break;		
+	  }    	
+     }
+  }
+}
+
 
 
