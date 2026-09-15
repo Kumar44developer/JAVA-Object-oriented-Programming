@@ -41,9 +41,9 @@ This project models a Last-In, First-Out (LIFO) stack data structure using stand
 
 ```
 JAVA-Object-oriented-Programming/
-├── Stack_simulation.java   # Stack class definition and interactive CLI driver
-├── Increment.java          # Supplementary exercise file
-└── README.md               # Project documentation
+├── Stack_simulation.java  
+├── Increment.java         
+└── README.md             
 ```
 
 ---
